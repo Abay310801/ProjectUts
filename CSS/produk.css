@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.logo {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	margin: 10px;
+	font-weight: bolder;
+}
+
+.kontak  {
+	margin-left: 950px;
+}
+
+.kontak a:hover {
+	background-color: Chartreuse;
+  }
+  
+.kontak a:hover {
+  background-color: Chartreuse;
+}
+
+.kontak a {
+	text-decoration: none;
+	background-color: green;
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+.mangga1 {
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+.title-produk {
+	justify-content: center;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.cards-container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  background-color: ForestGreen;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 350px;
+  height: 150px;
+}
+
+.card-body1 {
+  padding: 20px;
+}
+
+.card-body1 p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.btn1 {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+  justify-content: center;
+  float: right;
+  margin-right: 25px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.btn1 a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bolder;
+}

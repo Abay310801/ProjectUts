@@ -1,0 +1,96 @@
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.logo {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	margin: 10px;
+	font-weight: bolder;
+}
+
+.kontak  {
+	margin-left: 950px;
+}
+
+.kontak a:hover {
+	background-color: Chartreuse;
+  }
+  
+.kontak a {
+	text-decoration: none;
+	background-color: green;
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+.mangga1 {
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+.ObatSemprot {
+ text-align: center;
+}
+
+.container-ObatSemprot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-rows,
+.bottom-rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 200px;
+  height: 350px;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+}
+
+.cards .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+} 
+
+.text a {
+	text-decoration: none;
+	color: black;
+}
+
+.cards img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}

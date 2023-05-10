@@ -1,0 +1,162 @@
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.logo {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	margin: 10px;
+	font-weight: bolder;
+}
+
+.kontak  {
+	margin-left: 950px;
+}
+
+.kontak a:hover {
+  background-color: Chartreuse;
+}
+
+.kontak a {
+	text-decoration: none;
+	background-color: green;
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+.mangga1 {
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.container-payment1 {
+  background-color: green;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.payment1 {
+  margin-bottom: 20px;
+}
+
+.payment2 {
+  margin-bottom: 20px;
+}
+
+.container-payment2,
+.container-payment4 {
+  text-align: center;
+}
+
+.container-payment3,
+.container-payment5 {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+}
+
+form:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-payment1 div {
+  display: flex;
+  align-items: center;
+}
+
+
+.container-payment1 div img {
+  margin-left: 10px;
+}
+
+
+.container-payment1 form {
+  text-align: center;
+}
+
+.container-payment2,
+.container-payment4 {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 0;
+}
